@@ -19,3 +19,4 @@ switch-env.sh
 .npmrc
 .yarnrc.yml
 dump.rdb
+.vscode/
