@@ -2,15 +2,15 @@
 # Values here can be overridden by environment variables.
 
 llm:
-  provider: azure_mistral          # "openai", "azure", or "azure_mistral"
-  chat_model: Mistral-Large-3
-  embedding_model: text-embedding-3-small
-  embedding_dimensions: 1536
+  provider: openai                 # "openai", "azure", or "azure_mistral"
+  chat_model: C2-Cloud-Gemini-2.5-Pro
+  embedding_model: bge-m3-custom-fr
+  embedding_dimensions: 1024
   requests_per_minute: 500
   embedding_batch_size: 500
   max_tokens_per_request: 2048
   fallback_models:                # essayés dans l'ordre sur 429
-    - Mistral-Large-3
+    - C2-Cloud-Gemini-2.5-Flash
   fallback_retries_per_model: 1   # tentatives par modèle avant fallback
   batch_model:       # modèle pour Batch API (null = chat_model)
   batch_poll_interval_seconds: 1
