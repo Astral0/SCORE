@@ -21,3 +21,10 @@ switch-env.sh
 dump.rdb
 tmp/
 .vscode/
+
+# Claude Code toolkit (cloned from claude-maestro)
+.claude/
+.scannerwork/
+CLAUDE.md
+claude.project.yml
+sonar-project.properties
