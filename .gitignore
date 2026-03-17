@@ -28,3 +28,4 @@ tmp/
 CLAUDE.md
 claude.project.yml
 sonar-project.properties
+.hypothesis/
